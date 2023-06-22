@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Title -->
+
+    <!-- Logo -->
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="642dp"
+        android:text="Guess the Tune"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/logo_image_view"
+        android:layout_width="75dp"
+        android:layout_height="63dp"
+        android:layout_alignTop="@id/title_text_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="21dp"
+        android:src="@drawable/mlogo" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="443dp"
+        android:text="Play Tune"
+        android:backgroundTint="#f02965"/>
+
+    <Button
+        android:id="@+id/guessButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="372dp"
+        android:backgroundTint="#29f086"
+        android:text="Guess Tune"
+        android:textColor="@color/black"
+
+        />
+
+    <Button
+        android:id="@+id/giveUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="302dp"
+        android:backgroundTint="#2965f0"
+        android:text="Give Up" />
+
+    <EditText
+        android:id="@+id/guessEditText"
+        android:layout_width="137dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="220dp"
+        android:hint="Enter guess"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+
